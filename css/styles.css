@@ -1,0 +1,817 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    background-image: url("../assets/img/fondo.avif");
+    
+}
+
+
+.btn-primary{
+    padding: 12px 30px;
+    font-size: 18px;
+}
+
+/* NAVBAR */
+
+.logo-unesum{
+    width: 60px;
+    height: auto;
+}
+
+.navbar-brand{
+    font-weight: 600;
+}
+
+/* BANNER */
+
+.banner-ut{
+    background: linear-gradient(
+        135deg,
+        #0d6efd,
+        #4dabf7
+    );
+    color: white;
+    padding: 60px 0;
+}
+
+/* ACORDEONES */
+
+.accordion-item{
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.accordion-button{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.accordion-body{
+    background: #fafafa;
+}
+
+/* TARJETAS */
+
+.card-recurso{
+    border-radius: 15px;
+    border: none;
+}
+
+/* IMAGENES */
+
+.img-sesion{
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* BOTONES */
+
+.btn-escuchar{
+    margin-right: 10px;
+}
+
+/* ==========================
+   COLORES GENERALES
+========================== */
+
+:root{
+    --acua:#00b4b6;
+    --acua-dark:#008d8f;
+    --gris:#f4f6f9;
+}
+
+/* ==========================
+   BODY
+========================== */
+
+body{
+    background: var(--gris);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.navbar-custom{
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo-unesum{
+    width:40px;
+    height:auto;
+}
+
+.universidad{
+    font-size:18px;
+    font-weight:700;
+    color:#333;
+}
+
+.carrera{
+    font-size:14px;
+    color:#666;
+}
+
+/* ==========================
+   CARD ACCESO
+========================== */
+
+.card-acceso{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.12);
+}
+
+.card-header-custom{
+    background:linear-gradient(
+        135deg,
+        var(--acua),
+        var(--acua-dark)
+    );
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.card-header-custom h2{
+    margin:0;
+}
+
+.card-body{
+    padding:40px;
+}
+
+/* ==========================
+   BOTONES
+========================== */
+
+.btn-acua{
+    background:var(--acua);
+    color:white;
+    border:none;
+}
+
+.btn-acua:hover{
+    background:var(--acua-dark);
+    color:white;
+}
+
+.btn-docente{
+    background:#343a40;
+    color:white;
+}
+
+.btn-docente:hover{
+    background:#212529;
+    color:white;
+}
+
+/* ===================================
+   DASHBOARD
+=================================== */
+
+.hero-dashboard{
+    background: linear-gradient(135deg,#00b4b6,#008d8f);
+    color:white;
+    border-radius:25px;
+    padding:40px;
+    margin-top:30px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+
+.hero-dashboard h1{
+    font-weight:700;
+}
+
+.card-ut{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-ut:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.ut-header{
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-size:22px;
+    font-weight:700;
+}
+
+.ut1{
+    background:#0d6efd;
+}
+
+.ut2{
+    background:#198754;
+}
+
+.ut3{
+    background:#6f42c1;
+}
+
+.ut4{
+    background:#fd7e14;
+}
+
+.ut5{
+    background:#dc3545;
+}
+
+.ut6{
+    background:#20c997;
+}
+
+.card-practica{
+    border:none;
+    border-radius:20px;
+    background:linear-gradient(135deg,#198754,#20c997);
+    color:white;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+.card-accesibilidad{
+    border:none;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    background:white;
+}
+
+.footer-space{
+    height:80px;
+}
+
+.banner-ut1{
+    background:linear-gradient(135deg,#0d6efd,#4dabf7);
+    color:white;
+    padding:60px 0;
+}
+
+.banner-ut2{
+    background: linear-gradient(135deg,#198754,#20c997);
+    color:white;
+    padding:60px 0;
+}
+
+.banner-ut3{
+    background: linear-gradient(135deg,#6f42c1,#9b6dff);
+    color:white;
+    padding:60px 0;
+}
+
+.banner-ut4{
+    background: linear-gradient(135deg,#fd7e14,#ffb347);
+    color:white;
+    padding:60px 0;
+}
+
+.banner-ut5{
+    background: linear-gradient(135deg,#dc3545,#ff6b6b);
+    color:white;
+    padding:60px 0;
+}
+
+.banner-ut6{
+    background: linear-gradient(135deg,#20c997,#4dd4ac);
+    color:white;
+    padding:60px 0;
+}
+
+/* ==========================
+   TARJETAS DE SESIONES
+========================== */
+
+.sesion-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    margin-bottom:18px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.sesion-header{
+    background:linear-gradient(135deg,#5b2dbd,#7b4dff);
+    color:white;
+    padding:18px 25px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    cursor:pointer;
+}
+
+.sesion-info{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.numero-sesion{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:white;
+    color:#5b2dbd;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.sesion-titulo{
+    font-size:1.5rem;
+    margin:0;
+}
+
+.sesion-body{
+    display:none;
+    padding:30px;
+}
+
+.sesion-body.activa{
+    display:block;
+}
+
+.contenido-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.video-box iframe{
+    border-radius:12px;
+}
+
+.acciones-sesion{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+}
+
+.btn-accion{
+    flex:1;
+    min-height:58px;
+    border:none;
+    border-radius:10px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    text-decoration:none;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn-practica{
+    background:#0d6efd;
+    color:white;
+}
+
+.btn-audio{
+    background:#ffc107;
+    color:black;
+}
+
+.btn-completar{
+    background:#198754;
+    color:white;
+}
+
+.btn-accion:hover{
+    transform:translateY(-2px);
+}
+
+@media(max-width:992px){
+    .contenido-grid{
+        grid-template-columns:1fr;
+    }
+    .acciones-sesion{
+        flex-direction:column;
+    }
+}
+
+.flecha{
+    font-size:20px;
+    transition:.3s;
+}
+
+.sesion-header:hover .flecha{
+    transform:rotate(180deg);
+}
+
+/* ===================================
+   PRACTICAS GENERALES
+=================================== */
+
+.banner-practicas{
+    background: linear-gradient(
+        135deg,
+        #00b4b6,
+        #008d8f
+    );
+    color:white;
+    padding:80px 0;
+}
+
+.componente-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+    box-shadow:0 5px 20px rgba(0,0,0,.10);
+}
+
+.componente-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
+
+.componente-card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.componente-card h4{
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.componente-card .btn{
+    border-radius:10px;
+}
+
+.footer-robotica{
+    margin-top:60px;
+    background:#1f2937;
+    color:white;
+    padding:35px;
+}
+
+.footer-robotica h5{
+    font-weight:700;
+}
+
+.footer-robotica p{
+    margin-bottom:5px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .banner-practicas{
+        padding:60px 20px;
+    }
+
+    .componente-card img{
+        height:180px;
+    }
+
+}
+
+/* ===================================
+   PERFIL
+=================================== */
+
+.banner-perfil{
+    background: linear-gradient(
+        135deg,
+        #00b4b6,
+        #008d8f
+    );
+    color:white;
+    padding:70px 0;
+}
+
+.avatar-perfil{
+    width:120px;
+    height:120px;
+    margin:auto;
+    border-radius:50%;
+    background:white;
+    color:#008d8f;
+    font-size:55px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.perfil-card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.progreso-grande{
+    height:35px;
+    border-radius:20px;
+}
+
+.estadistica-card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.estadistica-card h2{
+    color:#00b4b6;
+    font-size:40px;
+    font-weight:700;
+}
+
+.unidad-card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.unidad-card:hover{
+    transform:translateY(-5px);
+}
+
+.unidad-card span{
+    font-size:25px;
+}
+
+/* ===================================
+   INDEX
+=================================== */
+.hero-index{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#00b4b6,#008d8f);
+    color:white;
+    padding-top:100px;
+}
+
+.hero-img{
+    max-width:500px;
+    width:100%;
+}
+
+.carousel-img{
+    height:500px;
+    object-fit:cover;
+}
+
+.card-index{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card-index:hover{
+    transform:translateY(-8px);
+}
+
+.beneficio-card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.beneficio-card:hover{
+    transform:translateY(-5px);
+}
+
+.beneficio-card h1{
+    font-size:60px;
+}
+
+.footer-index{
+    background:#1f2937;
+    color:white;
+    padding:50px 0;
+}
+
+.redes-sociales{
+    display:flex;
+    gap:15px;
+}
+
+.social-icon{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:white;
+    color:#25569a;
+    text-decoration:none;
+    font-size:20px;
+    transition:.3s;
+}
+
+.social-icon:hover{
+    transform:scale(1.1);
+}
+
+@media(max-width:768px){
+    .hero-index{
+        text-align:center;
+        padding:120px 20px 60px;
+    }
+    .carousel-img{
+        height:250px;
+    }
+}
+
+/* ===================================
+   ACCESIBILIDAD
+=================================== */
+.btn-outline-acua{
+    border:2px solid #00b4b6;
+    color:#00b4b6;
+}
+
+.btn-outline-acua:hover{
+    background:#00b4b6;
+    color:white;
+}
+
+.panel-accesibilidad{
+    position:fixed;
+    top:90px;
+    right:-320px;
+    width:300px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+    z-index:9999;
+    transition:.4s;
+}
+
+.panel-accesibilidad.activo{
+    right:20px;
+}
+
+.panel-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+body.alto-contraste{
+    background:black !important;
+    color:white !important;
+}
+
+body.alto-contraste .card{
+    background:#111 !important;
+    color:white !important;
+}
+
+body.alto-contraste .navbar{
+    background:black !important;
+}
+
+body.alto-contraste .footer-index{
+    background:#000 !important;
+}
+
+/* ===================================
+   ACCESO
+=================================== */
+.hero-acceso{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#00b4b6,#008d8f);
+    padding:120px 20px 80px;
+}
+
+.hero-acceso .card-acceso{
+    background:white;
+    border:none;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.hero-acceso .card-body{
+    padding:40px;
+}
+
+.hero-acceso .form-control,
+.hero-acceso .form-select{
+    min-height:50px;
+    border-radius:12px;
+}
+
+.hero-acceso .btn-lg{
+    min-height:55px;
+    border-radius:12px;
+}
+
+@media(max-width:768px){
+    .hero-acceso{
+        padding-top:100px;
+    }
+}
+
+/* ===================================
+   DASHBOARD 3.0
+=================================== */
+.dashboard-stats{
+    margin-top:30px;
+}
+
+.stat-card{
+    background:white;
+    border:none;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-5px);
+}
+
+.stat-card h2{
+    color:#00b4b6;
+    font-size:40px;
+    font-weight:700;
+}
+
+.ut-icon{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.card-ut .card-body{
+    text-align:center;
+}
+
+.card-ut p{
+    color:#666;
+    min-height:55px;
+}
+
+.atajos-card{
+    background:white;
+    border:none;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    text-decoration:none;
+    display:block;
+    color:#333;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.atajos-card:hover{
+    transform:translateY(-5px);
+    color:#00b4b6;
+}
+
+.atajos-card h1{
+    font-size:55px;
+}
+
+.hero-dashboard .badge{
+    font-size:14px;
+}
+
+
+.social-icon{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:white;
+    color:#25569a;
+    text-decoration:none;
+    font-size:20px;
+    transition:.3s;
+}

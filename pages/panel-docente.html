@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    Panel Docente
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+            <img src="../assets/img/logo1.png" class="logo-unesum">
+            <div class="ms-3">
+                <div class="universidad">
+                    Universidad Estatal del Sur de Manabí
+                </div>
+                <div class="carrera">
+                    Carrera de Tecnologías de la Información
+                </div>
+            </div>
+        </a>
+        <button class="btn btn-danger" id="btnCerrarSesion">
+            🚪 Cerrar Sesión
+        </button>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="container mt-5">
+    <div class="hero-dashboard">
+        <h1>👨‍🏫 Panel Docente</h1>
+        <p>
+            Estadísticas generales de uso de la Plataforma Web Inclusiva
+            para el Aprendizaje de Robótica Educativa.
+        </p>
+    </div>
+</div>
+
+<!-- ESTADÍSTICAS GENERALES -->
+<div class="container mt-4">
+    <div class="row g-4">
+        <div class="col-md-3">
+            <div class="card-accesibilidad text-center">
+                <h1 id="totalEstudiantes">0</h1>
+                <p>Estudiantes registrados</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card-accesibilidad text-center">
+                <h1 id="totalAccesos">0</h1>
+                <p>Total de accesos</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card-accesibilidad text-center">
+                <h1 id="totalProgreso">0</h1>
+                <p>Sesiones completadas</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card-accesibilidad text-center">
+                <h1 id="totalParalelos">0</h1>
+                <p>Paralelos activos</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ESTUDIANTES REGISTRADOS -->
+<div class="container mt-5">
+    <div class="card perfil-card">
+        <div class="card-body">
+            <h3>👨‍🎓 Estudiantes Registrados</h3>
+            <hr>
+
+            <div class="table-responsive">
+                <table class="table table-striped align-middle">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Periodo</th>
+                            <th>Paralelo</th>
+                            <th>Fecha Registro</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaEstudiantes"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ACCESOS POR PARALELO -->
+<div class="container mt-5">
+    <div class="card perfil-card">
+        <div class="card-body">
+            <h3>📊 Accesos por Paralelo</h3>
+            <hr>
+
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle">
+                    <thead>
+                        <tr>
+                            <th>Paralelo</th>
+                            <th>Cantidad de accesos</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaParalelos"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ACCESIBILIDAD -->
+<div class="container mt-5 mb-5">
+    <div class="card perfil-card">
+        <div class="card-body">
+            <h3>♿ Configuraciones de Accesibilidad</h3>
+            <hr>
+
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle">
+                    <thead>
+                        <tr>
+                            <th>Configuración</th>
+                            <th>Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaAccesibilidad"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== -->
+<!-- FOOTER -->
+<!-- ===================================== -->
+<footer class="footer-index">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h4>
+                    Universidad Estatal del Sur de Manabí
+                </h4>
+                <p>
+                    Carrera de Tecnologías de la Información
+                </p>
+                <p>
+                    Plataforma Web Inclusiva para el Aprendizaje
+                    de Robótica Educativa
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Contacto
+                </h5>
+                <p>
+                    📧 info@unesum.edu.ec
+                </p>
+                <p>
+                    🌐 Jipijapa - Manabí - Ecuador
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Síguenos
+                </h5>
+                <div class="redes-sociales">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            © 2026 Carrera de Tecnologías de la Información -
+            Universidad Estatal del Sur de Manabí.
+            Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
+<!-- ===================================== -->
+<!-- SCRIPTS -->
+<!-- ===================================== -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../js/supabase.js"></script>
+<script src="../js/panel-docente.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

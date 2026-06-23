@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>
+        Robótica Educativa Inclusiva
+    </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ===================================== -->
+<!-- NAVBAR -->
+<!-- ===================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="assets/img/logo1.png" class="logo-unesum">
+            <div class="ms-3">
+                <div class="universidad">
+                    Universidad Estatal del Sur de Manabí
+                </div>
+                <div class="carrera">
+                    Carrera de Tecnologías de la Información
+                </div>
+            </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#unidades">
+                        Unidades
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#beneficios">
+                        Beneficios
+                    </a>
+                </li>
+                <li class="nav-item ms-3">
+                    <button class="btn btn-outline-acua" id="btnAccesibilidad">
+                        ♿ Accesibilidad
+                    </button>
+                </li>
+                <li class="nav-item ms-3">
+                    <a href="pages/docente.html" class="btn btn-dark">
+                        <i class="fas fa-user-tie"></i>
+                            Docente
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ===================================== -->
+<!-- HERO -->
+<!-- ===================================== -->
+
+<section class="hero-index">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold">
+                    Plataforma Web Inclusiva para el Aprendizaje de Robótica Educativa
+                </h1>
+                <p class="lead mt-4">
+                    Desarrollada para fortalecer el aprendizaje
+                    de la robótica mediante recursos interactivos,
+                    accesibles y adaptados a las necesidades de
+                    todos los estudiantes.
+                </p>
+
+                <a href="pages/acceso.html" class="btn btn-lg btn-acua mt-3">
+                    🚀 Ingresar
+                </a>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="assets/img/in.jpg" class="img-fluid hero-img" style="border-radius: 10px">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- ROBOTICA EDUCATIVA -->
+<!-- ===================================== -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="assets/img/as.webp" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="fw-bold">
+                    🤖 ¿Qué es la Robótica Educativa?
+                </h2>
+                <p>
+                    La robótica educativa es una metodología
+                    de aprendizaje que integra conocimientos
+                    de programación, electrónica y resolución
+                    de problemas mediante el diseño y control
+                    de sistemas robóticos.
+                </p>
+                <p>
+                    Permite desarrollar habilidades técnicas,
+                    pensamiento lógico, creatividad y trabajo
+                    colaborativo.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- CARRUSEL -->
+<!-- ===================================== -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                📸 Galería de Robótica Educativa
+            </h2>
+            <p>
+                Explora algunos de los recursos y tecnologías
+                utilizadas durante el proceso de aprendizaje.
+            </p>
+        </div>
+        <div id="carouselRobotica" class="carousel slide shadow rounded overflow-hidden" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carrusel1.jpg" class="d-block w-100 carousel-img" alt="Arduino">
+                    <div class="carousel-caption">
+                        <h3>Arduino</h3>
+                        <p> 
+                            Programación y automatización.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carrusel2.jpg" class="d-block w-100 carousel-img" alt="Sensores">
+                    <div class="carousel-caption">
+                        <h3>Sensores</h3>
+                        <p>
+                            Captura de información del entorno.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carrusel3.jpg" class="d-block w-100 carousel-img" alt="Actuadores">
+                    <div class="carousel-caption">
+                        <h3>Actuadores</h3>
+                        <p>
+                            Control de movimiento y acciones.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carrusel4.jpg" class="d-block w-100 carousel-img" alt="Proyectos">
+                    <div class="carousel-caption">
+                        <h3>Proyectos Integradores</h3>
+                        <p>
+                            Aplicación práctica de conocimientos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselRobotica" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselRobotica" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- UNIDADES TEMÁTICAS -->
+<!-- ===================================== -->
+<section id="unidades" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                📚 Unidades Temáticas
+            </h2>
+            <p>
+                Contenido organizado para desarrollar
+                competencias en robótica educativa.
+            </p>
+        </div>
+        
+        <div class="row g-4">
+            <!-- UT1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-index h-100">
+                    <div class="ut-header ut1">
+                        UT1
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Introducción a la Robótica
+                        </h5>
+                        <p>
+                            Conceptos fundamentales, historia,
+                            aplicaciones y componentes básicos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UT2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-index h-100">
+                    <div class="ut-header ut2">
+                        UT2
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Electrónica Básica
+                        </h5>
+                        <p>
+                            Circuitos, resistencias, LEDs,
+                            protoboard y fundamentos eléctricos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UT3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-index h-100">
+                    <div class="ut-header ut3">
+                        UT3
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Sensores y Actuadores
+                        </h5>
+                        <p>
+                            Uso de sensores para capturar datos
+                            y actuadores para ejecutar acciones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UT4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-index h-100">
+                    <div class="ut-header ut4">
+                        UT4
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Programación Arduino
+                        </h5>
+                        <p>
+                            Desarrollo de programas para controlar
+                            componentes electrónicos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UT5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-index h-100">
+                    <div class="ut-header ut5">
+                        UT5
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Integración de Sistemas
+                        </h5>
+                        <p>
+                            Conexión y funcionamiento conjunto
+                            de sensores, actuadores y Arduino.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UT6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-index h-100">
+                    <div class="ut-header ut6">
+                        UT6
+                    </div>
+                    <div class="card-body">
+                        <h5>
+                            Proyecto Final
+                        </h5>
+                        <p>
+                            Diseño e implementación de un sistema
+                            robótico aplicando los conocimientos adquiridos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- BENEFICIOS -->
+<!-- ===================================== -->
+<section id="beneficios" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                🌟 Beneficios de la Plataforma
+            </h2>
+            <p>
+                Herramientas diseñadas para facilitar el aprendizaje
+                de la robótica educativa.
+            </p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card beneficio-card h-100">
+                    <div class="card-body text-center">
+                        <h1>🤖</h1>
+                        <h4>
+                            Aprendizaje Interactivo
+                        </h4>
+                        <p>
+                            Contenido dinámico que facilita la comprensión
+                            de conceptos teóricos y prácticos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card beneficio-card h-100">
+                    <div class="card-body text-center">
+                        <h1>♿</h1>
+                        <h4>
+                            Accesibilidad
+                        </h4>
+                        <p>
+                            Lectura por voz, alto contraste y recursos
+                            adaptados para diferentes necesidades.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card beneficio-card h-100">
+                    <div class="card-body text-center">
+                        <h1>🧪</h1>
+                        <h4>
+                            Simulación Virtual
+                        </h4>
+                        <p>
+                            Prácticas mediante Tinkercad sin necesidad
+                            de hardware físico.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card beneficio-card h-100">
+                    <div class="card-body text-center">
+                        <h1>📈</h1>
+                        <h4>
+                            Seguimiento Académico
+                        </h4>
+                        <p>
+                            Monitoreo del progreso y avance en cada
+                            unidad temática.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- ACCESIBILIDAD -->
+<!-- ===================================== -->
+<section class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="fw-bold">
+                    ♿ Plataforma Inclusiva
+                </h2>
+                <p>
+                    La plataforma incorpora herramientas de accesibilidad
+                    que permiten a todos los estudiantes interactuar con
+                    los contenidos de manera cómoda y eficiente.
+                </p>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        🔊 Lectura por voz
+                    </li>
+                    <li class="list-group-item">
+                        🎥 Videos educativos
+                    </li>
+                    <li class="list-group-item">
+                        🎨 Alto contraste
+                    </li>
+                    <li class="list-group-item">
+                        📱 Diseño adaptable a dispositivos móviles
+                    </li>
+                    <li class="list-group-item">
+                        📖 Material organizado y estructurado
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="assets/img/dis.jpg" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- FOOTER -->
+<!-- ===================================== -->
+<footer class="footer-index">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h4>
+                    Universidad Estatal del Sur de Manabí
+                </h4>
+                <p>
+                    Carrera de Tecnologías de la Información
+                </p>
+                <p>
+                    Plataforma Web Inclusiva para el Aprendizaje
+                    de Robótica Educativa
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Contacto
+                </h5>
+                <p>
+                    📧 info@unesum.edu.ec
+                </p>
+                <p>
+                    🌐 Jipijapa - Manabí - Ecuador
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Síguenos
+                </h5>
+                <div class="redes-sociales">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@robtica.unesum.tic?_r=1&_t=ZS-97SCyVxJZkV" class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            © 2026 Carrera de Tecnologías de la Información -
+            Universidad Estatal del Sur de Manabí.
+            Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
+<!-- ===================================== -->
+<!-- PANEL ACCESIBILIDAD -->
+<!-- ===================================== -->
+<div id="panelAccesibilidad" class="panel-accesibilidad">
+    <div class="panel-header">
+        <h5>
+            ♿ Opciones de Accesibilidad
+        </h5>
+        <button class="btn-close" id="cerrarPanel">
+        </button>
+    </div>
+    <hr>
+    <button class="btn btn-acua w-100 mb-2" id="btnContraste">
+        🌙 Alto Contraste
+    </button>
+    <button class="btn btn-secondary w-100 mb-2" id="btnNormal">
+        ☀️ Vista Normal
+    </button>
+    <button class="btn btn-success w-100 mb-2" id="btnAumentar">
+        🔍 Aumentar Texto
+    </button>
+    <button class="btn btn-warning w-100 mb-2" id="btnReducir">
+        🔎 Reducir Texto
+    </button>
+    <button class="btn btn-primary w-100" id="btnLeerPagina">
+        🔊 Leer Página
+    </button>
+</div>
+
+<!-- ===================================== -->
+<!-- SCRIPTS -->
+<!-- ===================================== -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../js/supabase.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/accesibilidad.js"></script>
+<script src="js/configAccesibilidad.js"></script>
+
+
+</body>
+
+</html>

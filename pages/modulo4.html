@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>
+        UT4 - Cinemática del Robot
+    </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar shadow-sm">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
+            <img src="../assets/img/logo1.png" alt="UNESUM" width="45" class="me-3">
+
+            <div>
+                <div class="universidad">
+                    Universidad Estatal del Sur de Manabí
+                </div>
+                <div class="carrera">
+                    Carrera de Tecnologías de la Información
+                </div>
+            </div>
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> 📚 Unidades Temáticas </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="modulo1.html">UT1</a></li>
+                        <li><a class="dropdown-item" href="modulo2.html">UT2</a></li>
+                        <li><a class="dropdown-item" href="modulo3.html">UT3</a></li>
+                        <li><a class="dropdown-item active" href="modulo4.html">UT4</a></li>
+                        <li><a class="dropdown-item" href="modulo5.html">UT5</a></li>
+                        <li><a class="dropdown-item" href="modulo6.html">UT6</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html"> 🏠 Inicio </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="practicas.html"> 📖 Prácticas </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="perfil.html"> 👤 Perfil </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- BANNER -->
+
+<section class="banner-ut4">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-lg-3 text-center">
+                <img src="../assets/img/ut4a.jpg" class="img-fluid" style="height:280px; width: 240px; border-radius: 10px">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h1 class="display-5 fw-bold"> 
+                    ⚙️ UT4
+                    <br>   
+                    Cinemática del Robot
+                </h1>
+                <p class="lead">
+                    Estudio del movimiento robótico,
+                    posicionamiento, control y trayectorias.
+                </p>
+                <div class="alert alert-light">
+                    <strong>4 sesiones</strong>
+                        |
+                        Fundamentos del movimiento
+                        y control de robots.                    
+                </div>
+                <div class="progress">
+                    <div id="barraProgreso" class="progress-bar bg-warning" style="width:0%;">
+                        0%
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 text-center">
+                <img src="../assets/img/ut4b.jpg" class="img-fluid" style="height:280px; width: 240px; border-radius: 10px">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- CONTENIDO -->
+<!-- ===================================== -->
+<div class="container my-5">
+    <!-- ===================================== -->
+    <!-- SESION 15 -->
+    <!-- ===================================== -->
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">
+                    15
+                </div>
+                <h3 class="sesion-titulo">
+                    Cinemática de un Robot: Introducción
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+
+        <div class="sesion-body activa">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>
+                        <ul>
+                            <li>Comprender el concepto de cinemática.</li>
+                            <li>Analizar el movimiento robótico.</li>
+                            <li>Relacionar articulaciones y desplazamientos.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            La cinemática estudia el movimiento de los robots sin considerar las fuerzas que lo producen.
+                        </p>
+                        <p>
+                            Permite describir posiciones, velocidades y trayectorias de cada articulación.
+                        </p>
+                        <p>
+                            Es una de las bases fundamentales para diseñar sistemas robóticos eficientes.
+                        </p>
+                    </div>
+                </div>
+                
+                <div>   
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/6CMv2i1mBmY" title="Robótica: Cinemática del Robot #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            
+                    <div class="mt-3">
+                        <a href="https://www.tinkercad.com" target="_blank" class="btn btn-outline-warning">
+                            🔗 Simulación en Tinkercad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT4"    data-sesion="15">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- SESION 16 -->
+    <!-- ===================================== -->
+
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">
+                    16
+                </div>
+                <h3 class="sesion-titulo">
+                    Cinemática Directa e Inversa
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+
+        <div class="sesion-body">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>                        
+                        <ul>
+                            <li>Comprender la cinemática directa.</li>
+                            <li>Comprender la cinemática inversa.</li>
+                            <li>Relacionar posición y movimiento articular.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            La cinemática directa permite determinar la posición y orientación final del robot a partir de los valores de sus articulaciones.
+                        </p>
+                        <p>
+                            La cinemática inversa realiza el proceso contrario: calcula los valores articulares necesarios para alcanzar una posición específica.
+                        </p>
+                        <p>
+                            Ambas son fundamentales para el control preciso de robots industriales y móviles.
+                        </p>
+                    </div>
+                </div>
+                    
+                <div>
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/7oXQFHaJNRM" title="CINEMÁTICA DIRECTA E INVERSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="mt-3">
+                        <a href="https://www.tinkercad.com" target="_blank" class="btn btn-outline-warning">
+                            🔗 Simulación en Tinkercad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT4"    data-sesion="16">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- SESION 17 -->
+    <!-- ===================================== -->
+
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">
+                    17
+                </div>
+                <h3 class="sesion-titulo">
+                    Esquema de Control de Robots
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+
+        <div class="sesion-body">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>
+                        <ul>
+                            <li>Comprender la arquitectura de control.</li>
+                            <li>Identificar componentes de un sistema de control.</li>
+                            <li>Analizar la retroalimentación robótica.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            El sistema de control es el encargado de coordinar las acciones del robot mediante algoritmos y señales de retroalimentación.
+                        </p>
+                        <p>
+                            Un esquema típico incluye sensores, controlador, actuadores y procesos de monitoreo continuo.
+                        </p>
+                        <p>
+                            La retroalimentación permite corregir errores y mejorar la precisión del movimiento.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/2SHQTUvvVuM" title="Sistemas de control - Robótica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="mt-3">
+                        <a href="https://www.tinkercad.com" target="_blank" class="btn btn-outline-warning">
+                            🔗 Simulación en Tinkercad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT4"    data-sesion="17">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- SESION 18 -->
+    <!-- ===================================== -->
+
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">
+                    18
+                </div>
+                <h3 class="sesion-titulo">
+                    Generación de Trayectorias en el Espacio Articular
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+
+        <div class="sesion-body">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>
+                        <ul>
+                            <li>Comprender la planificación de trayectorias.</li>
+                            <li>Identificar tipos de trayectorias.</li>
+                            <li>Analizar movimientos suaves y eficientes.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            La generación de trayectorias consiste en planificar el recorrido que seguirá un robot entre dos puntos determinados.
+                        </p>
+                        <p>
+                            Existen trayectorias lineales, circulares y polinomiales, dependiendo de la tarea a realizar.
+                        </p>
+                        <p>
+                            Una trayectoria bien diseñada mejora la precisión, reduce el desgaste mecánico y optimiza el tiempo de ejecución.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/G2vDSKen7vU" title="Robótica I - Laboratorio No. 8: Generación de Trayectorias" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="mt-3">
+                        <a href="https://www.tinkercad.com" target="_blank" class="btn btn-outline-warning">
+                            🔗 Simulación en Tinkercad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT4"    data-sesion="18">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-index">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h4>
+                    Universidad Estatal del Sur de Manabí
+                </h4>
+                <p>
+                    Carrera de Tecnologías de la Información
+                </p>
+                <p>
+                    Plataforma Web Inclusiva para el Aprendizaje
+                    de Robótica Educativa
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Contacto
+                </h5>
+                <p>
+                    📧 info@unesum.edu.ec
+                </p>
+                <p>
+                    🌐 Jipijapa - Manabí - Ecuador
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Síguenos
+                </h5>
+                <div class="redes-sociales">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            © 2026 Carrera de Tecnologías de la Información -
+            Universidad Estatal del Sur de Manabí.
+            Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
+<!-- ===================================== -->
+<!-- SCRIPTS -->
+<!-- ===================================== -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../js/supabase.js"></script>
+<script src="../js/unidad.js"></script>
+<script src="../js/configAccesibilidad.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

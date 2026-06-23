@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prácticas Generales</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+<!-- ===================================== -->
+<!-- NAVBAR -->
+<!-- ===================================== -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
+        <img src="../assets/img/logo1.png" class="logo-unesum">
+            <div class="ms-3">
+                <div class="universidad">
+                    Universidad Estatal del Sur de Manabí
+                </div>
+                <div class="carrera">
+                    Carrera de Tecnologías de la Información
+                </div>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html">
+                    🏠 Inicio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="practicas.html">
+                        📖 Prácticas
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="perfil.html">
+                        👤 Perfil
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ===================================== -->
+<!-- BANNER -->
+<!-- ===================================== -->
+<section class="banner-practicas">
+    <div class="container text-center">
+        <h1 class="display-5 fw-bold">
+            🔧 Biblioteca de Componentes
+        </h1>
+        <p class="lead">
+            Conoce los componentes electrónicos y robóticos
+            utilizados en las prácticas del curso.
+        </p>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- COMPONENTES -->
+<!-- ===================================== -->
+<div class="container py-5">
+    <div class="row g-4">
+        <!-- Arduino -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/a1.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>Arduino Uno</h4>
+                    <p class="contenido-lectura">
+                        Placa basada en ATmega328P utilizada para
+                        controlar sensores y actuadores.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Protoboard -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/p1.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>Protoboard</h4>
+                    <p class="contenido-lectura">
+                        Tablero para realizar conexiones electrónicas
+                        sin soldadura.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- LED -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/led.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>LED</h4>
+                    <p class="contenido-lectura">
+                        Diodo emisor de luz utilizado para señalización.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resistencia -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/resistencia.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>Resistencia</h4>
+                    <p class="contenido-lectura">
+                        Componente que limita el paso de corriente
+                        en un circuito.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- SENSOR HC-SR04 -->
+        <!-- ===================================== -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/ultra.png" class="card-img-top">
+                <div class="card-body">
+                    <h4>Sensor HC-SR04</h4>
+                    <p class="contenido-lectura">
+                        Sensor ultrasónico utilizado para medir
+                        distancias mediante ondas sonoras.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- SERVOMOTOR -->
+        <!-- ===================================== -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/servo.webp" class="card-img-top">
+                <div class="card-body">
+                    <h4>Servomotor</h4>
+                    <p class="contenido-lectura">
+                        Motor de precisión capaz de posicionarse
+                        en ángulos específicos mediante señales PWM.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- MOTOR DC -->
+        <!-- ===================================== -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/dc.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>Motor DC</h4>
+                    <p class="contenido-lectura">
+                        Motor eléctrico que transforma energía
+                        eléctrica en movimiento rotacional continuo.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- SENSOR PIR -->
+        <!-- ===================================== -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/pir.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>Sensor PIR</h4>
+                    <p class="contenido-lectura">
+                        Sensor infrarrojo pasivo utilizado para
+                        detectar movimiento de personas u objetos.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- SENSOR LM35 -->
+        <!-- ===================================== -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/lm.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>Sensor LM35</h4>
+                    <p class="contenido-lectura">
+                        Sensor analógico utilizado para medir
+                        temperatura con alta precisión.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- BUZZER -->
+        <!-- ===================================== -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/buzz.webp" class="card-img-top">
+                <div class="card-body">
+                    <h4>Buzzer</h4>
+                    <p class="contenido-lectura">
+                        Dispositivo electrónico capaz de generar
+                        sonidos y alertas acústicas.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ===================================== -->
+        <!-- DISPLAY LCD -->
+        <!-- ===================================== -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/disp.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>Display LCD 16x2</h4>
+                    <p class="contenido-lectura">
+                        Pantalla utilizada para mostrar texto,
+                        valores de sensores y mensajes en proyectos
+                        electrónicos y robóticos.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- CABLES JUMPER -->
+        <!-- ===================================== -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card componente-card h-100">
+                <img src="../assets/img/jum.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h4>Cables Jumper</h4>
+                    <p class="contenido-lectura">
+                        Conductores utilizados para conectar
+                        componentes electrónicos en protoboards
+                    y placas Arduino.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-primary w-100 mb-2">
+                        Simulación
+                    </a>
+                    <button class="btn btn-warning w-100 leer">
+                        🔊 Escuchar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- TARJETA ESPECIAL TINKERCAD -->
+        <!-- ===================================== -->
+        <div class="col-12">
+            <div class="card shadow-lg border-0 mt-4">
+                <div class="card-body text-center p-5">
+                    <h2 class="fw-bold">
+                        🚀 Laboratorio Virtual de Robótica
+                    </h2>
+                    <p class="lead">
+                        Accede al entorno de simulación para
+                        desarrollar circuitos, programar Arduino
+                        y realizar las prácticas del curso.
+                    </p>
+                    <a href="https://www.tinkercad.com" target="_blank" class="btn btn-lg btn-success px-5">
+                        Abrir Tinkercad
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== -->
+<!-- FOOTER -->
+<!-- ===================================== -->
+<footer class="footer-index">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h4>
+                    Universidad Estatal del Sur de Manabí
+                </h4>
+                <p>
+                    Carrera de Tecnologías de la Información
+                </p>
+                <p>
+                    Plataforma Web Inclusiva para el Aprendizaje
+                    de Robótica Educativa
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Contacto
+                </h5>
+                <p>
+                    📧 info@unesum.edu.ec
+                </p>
+                <p>
+                    🌐 Jipijapa - Manabí - Ecuador
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Síguenos
+                </h5>
+                <div class="redes-sociales">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            © 2026 Carrera de Tecnologías de la Información -
+            Universidad Estatal del Sur de Manabí.
+            Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
+<!-- ===================================== -->
+<!-- SCRIPTS -->
+<!-- ===================================== -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../js/supabase.js"></script>
+<script src="../js/practicas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

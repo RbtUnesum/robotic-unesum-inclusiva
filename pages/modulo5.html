@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            UT5 - Cálculo de Velocidades y Singularidad
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body> 
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar shadow-sm">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
+            <img src="../assets/img/logo1.png" alt="UNESUM" width="45" class="me-3">
+
+            <div>
+                <div class="universidad">
+                    Universidad Estatal del Sur de Manabí
+                </div>
+                <div class="carrera">
+                    Carrera de Tecnologías de la Información
+                </div>
+            </div>
+        </a>
+        
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> 📚 Unidades Temáticas </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="modulo1.html">UT1</a></li>
+                        <li><a class="dropdown-item" href="modulo2.html">UT2</a></li>
+                        <li><a class="dropdown-item" href="modulo3.html">UT3</a></li>
+                        <li><a class="dropdown-item" href="modulo4.html">UT4</a></li>
+                        <li><a class="dropdown-item active" href="modulo5.html">UT5</a></li>
+                        <li><a class="dropdown-item" href="modulo6.html">UT6</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html">🏠 Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="practicas.html">📖 Prácticas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="perfil.html">👤 Perfil</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- BANNER -->
+<section class="banner-ut5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 text-center">
+                <img src="../assets/img/ut5a.webp" class="img-fluid" style="height:280px; width: 240px; border-radius: 10px">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h1 class="display-5 fw-bold">
+                    🚀 UT5
+                    <br>
+                    Cálculo de Velocidades y Singularidad
+                </h1>
+                <p class="lead">
+                    Análisis del movimiento,
+                    velocidades articulares y
+                    condiciones de singularidad.
+                </p>
+                <div class="alert alert-light">
+                    <strong>5 sesiones</strong>
+                        |
+                        Control y análisis avanzado
+                        del movimiento robótico.
+                </div>
+                <div class="progress">
+                    <div id="barraProgreso" class="progress-bar bg-warning" style="width:0%;">  
+                        0%
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 text-center">
+                <img src="../assets/img/ut5b.jpg"  class="img-fluid" style="height:280px; width: 240px; border-radius: 10px">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- CONTENIDO -->
+<!-- ===================================== -->
+<div class="container my-5">
+    <!-- ===================================== -->
+    <!-- SESION 19 -->
+    <!-- ===================================== -->
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">
+                    19
+                </div>
+                <h3 class="sesion-titulo">
+                    Control del Movimiento en el Espacio Articular
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+            
+        <div class="sesion-body activa">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>
+                        <ul>
+                           <li>Comprender el control articular.</li>
+                            <li>Analizar el movimiento de las articulaciones.</li>
+                            <li>Relacionar posición y velocidad.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            El control del movimiento en el espacio articular se enfoca en regular la posición, velocidad y aceleración de cada articulación del robot.
+                        </p>
+                        <p>
+                            Permite coordinar movimientos precisos para ejecutar tareas complejas.
+                        </p>
+                        <p>
+                            Es ampliamente utilizado en robots industriales y manipuladores de alta precisión.
+                        </p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/zoUfgL4fDoU" title="Brazo manipulador 6 grados de libertad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="mt-3">
+                        <a href="https://www.tinkercad.com" target="_blank" class="btn btn-outline-danger"> 
+                            🔗 Simulación en Tinkercad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT5"    data-sesion="19">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- SESION 20 -->
+    <!-- ===================================== -->
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">
+                    20
+                </div>
+                <h3 class="sesion-titulo">
+                    Control de Velocidad de un Robot
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+    
+        <div class="sesion-body">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>
+                        <ul>
+                            <li>Comprender el control de velocidad.</li>
+                            <li>Analizar la respuesta dinámica.</li>
+                            <li>Aplicar estrategias de regulación.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            El control de velocidad permite regular la rapidez con la que se desplazan las articulaciones o el efector final del robot.
+                        </p>
+                        <p>
+                            Este control es esencial para garantizar movimientos seguros y eficientes.
+                        </p>
+                        <p>
+                            Los sistemas modernos utilizan controladores PID y algoritmos avanzados para optimizar el rendimiento.
+                        </p>
+                    </div>
+                </div>
+            
+                <div>
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/QVGZbhiQP9Y" title="Control de velocidad de un robot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="mt-3">
+                        <a href="https://www.tinkercad.com" target="_blank" class="btn btn-outline-danger">       
+                            🔗 Simulación en Tinkercad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT5"    data-sesion="20">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- SESION 21 -->
+    <!-- ===================================== -->
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">
+                    21
+                </div>
+                <h3 class="sesion-titulo">
+                    Singularidad de un Robot
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+        
+        <div class="sesion-body">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>
+                        <ul>
+                            <li>Comprender el concepto de singularidad.</li>
+                            <li>Identificar situaciones críticas en el movimiento.</li>
+                            <li>Analizar sus efectos en el control robótico.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            Una singularidad ocurre cuando el robot pierde grados de libertad o presenta movimientos impredecibles debido a configuraciones específicas de sus articulaciones.
+                        </p>
+                        <p>
+                            En estas condiciones, pequeños cambios en la posición pueden requerir velocidades extremadamente altas en las articulaciones.
+                        </p>
+                        <p>
+                            Identificar y evitar singularidades es fundamental para garantizar un funcionamiento seguro y eficiente.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/X_d2fSGI9l4" title="Generalidades p4 robótica industrial singularidad morfología" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="mt-3">
+                        <a href="https://www.tinkercad.com" target="_blank" class="btn btn-outline-danger">
+                            🔗 Simulación en Tinkercad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT5"    data-sesion="21">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- SESION 22 -->
+    <!-- ===================================== -->
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">22</div>
+                <h3 class="sesion-titulo">
+                    Cálculo de Velocidad de un Robot
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+
+        <div class="sesion-body">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>
+                        <ul>
+                            <li>Comprender las ecuaciones de velocidad.</li>
+                            <li>Relacionar velocidad lineal y angular.</li>
+                            <li>Aplicar conceptos matemáticos al movimiento robótico.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            El cálculo de velocidad permite determinar qué tan rápido se mueve un robot en un instante determinado.
+                        </p>
+                        <p>
+                            Se utilizan herramientas matemáticas como derivadas, matrices jacobianas y transformaciones cinemáticas.
+                        </p>
+                        <p>
+                            Estos cálculos son esenciales para la planificación de trayectorias y el control de movimientos precisos.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/G5BRcxLpHGw" title="Cómo Calcular la Jacobiana de un Brazo Robot: Ejemplo Numérico | Sistemas Robotizados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="mt-3">
+                        <a href="https://www.tinkercad.com" target="_blank" class="btn btn-outline-danger">
+                            🔗 Simulación en Tinkercad
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT5"    data-sesion="22">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- SESION 23 -->
+    <!-- ===================================== -->
+    <div class="sesion-card">
+        <div class="sesion-header">
+            <div class="sesion-info">
+                <div class="numero-sesion">23</div>
+                <h3 class="sesion-titulo">
+                    Ejemplo de Cálculo de Velocidad de un Robot
+                </h3>
+            </div>
+            <span class="flecha">▼</span>
+        </div>
+
+        <div class="sesion-body">
+            <div class="contenido-grid">
+                <div>
+                    <div class="contenido-lectura">
+                        <h4>🎯 Objetivos</h4>
+                        <ul>
+                            <li>Aplicar los conceptos estudiados.</li>
+                            <li>Resolver ejercicios prácticos.</li>
+                            <li>Interpretar resultados obtenidos.</li>
+                        </ul>
+                        <h4>📄 Contenido</h4>
+                        <p>
+                            Supongamos que una articulación gira 90° en 3 segundos.
+                        </p>
+                        <p>
+                            La velocidad angular se calcula mediante:
+                        </p>
+                        <p>
+                            <strong>ω = θ / t</strong>
+                        </p>
+                        <p>
+                            ω = 90° / 3s = 30°/s
+                        </p>
+                        <p>
+                            Este tipo de cálculos permite diseñar movimientos seguros y eficientes para aplicaciones robóticas.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>🎥 Video Explicativo</h4>
+                    <div class="ratio ratio-16x9">
+                        <iframe width="1361" height="480" src="https://www.youtube.com/embed/tKXfp0Jp90A" title="#VELOCIDAD Y #ACELERACIÓN EN EL EFECTOR FINAL DE UN #ROBOT | zDynamics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acciones-sesion">
+                <a href="practicas.html" class="btn-accion btn-practica">
+                    🧪 Ir a la práctica
+                </a>
+                <button class="btn-accion btn-audio leer">
+                    🔊 Escuchar contenido
+                </button>
+                <button class="btn-accion btn-completar completar" data-unidad="UT5"    data-sesion="23">
+                    ✓ Marcar como completada
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-index">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h4>
+                    Universidad Estatal del Sur de Manabí
+                </h4>
+                <p>
+                    Carrera de Tecnologías de la Información
+                </p>
+                <p>
+                    Plataforma Web Inclusiva para el Aprendizaje
+                    de Robótica Educativa
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Contacto
+                </h5>
+                <p>
+                    📧 info@unesum.edu.ec
+                </p>
+                <p>
+                    🌐 Jipijapa - Manabí - Ecuador
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Síguenos
+                </h5>
+                <div class="redes-sociales">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            © 2026 Carrera de Tecnologías de la Información -
+            Universidad Estatal del Sur de Manabí.
+            Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
+<!-- ===================================== -->
+<!-- SCRIPTS -->
+<!-- ===================================== -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../js/supabase.js"></script>
+<script src="../js/unidad.js"></script>
+<script src="../js/configAccesibilidad.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

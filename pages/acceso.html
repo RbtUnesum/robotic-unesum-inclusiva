@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Acceso Estudiante
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- ===================================== -->
+<!-- NAVBAR -->
+<!-- ===================================== -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+            <img src="../assets/img/logo1.png" class="logo-unesum">
+            <div class="ms-3">
+                <div class="universidad">
+                    Universidad Estatal del Sur de Manabí
+                </div>
+                <div class="carrera">
+                    Carrera de Tecnologías de la Información
+                </div>
+            </div>
+        </a>
+        <a href="../index.html" class="btn btn-outline-acua">
+            🏠 Inicio
+        </a>
+    </div>
+</nav>
+
+<!-- ===================================== -->
+<!-- HERO -->
+<!-- ===================================== -->
+<section class="hero-acceso">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card-acceso">
+                    <!-- HEADER -->
+                    <div class="card-header-custom">
+                        <h2>
+                            🤖 Bienvenido
+                        </h2>
+                        <p class="mb-0">
+                            Plataforma Web Inclusiva para el
+                            Aprendizaje de Robótica Educativa
+                        </p>
+                    </div>
+                    <!-- BODY -->
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <h4>
+                                Acceso Estudiantil
+                            </h4>
+                            <p class="text-muted">
+                                Ingrese la información solicitada
+                                para acceder a la plataforma.
+                            </p>
+                        </div>
+                        <!-- NOMBRE -->
+                        <div class="mb-3">
+                            <label class="form-label">
+                                👤 Nombre Completo
+                            </label>
+                            <input type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre completo">
+                        </div>
+                        <!-- PERIODO -->
+                        <div class="mb-3">
+                            <label class="form-label">
+                                📅 Periodo Académico
+                            </label>
+                            <input type="text" id="periodo" class="form-control" placeholder="Ejemplo: 2026-I">
+                        </div>
+                        <!-- PARALELO -->
+                        <div class="mb-3">
+                            <label class="form-label">
+                                🎓 Paralelo
+                            </label>
+                            <select id="paralelo" class="form-select">
+                                <option value="">
+                                    Seleccione un paralelo
+                                </option>
+                                <option value="A">
+                                    Paralelo A
+                                </option>
+                                <option value="B">
+                                    Paralelo B
+                                </option>
+                                <option value="C">
+                                    Paralelo C
+                                </option>
+                                <option value="D">
+                                    Paralelo D
+                                </option>
+                            </select>
+                        </div>
+                        <!-- ACCESIBILIDAD -->
+                        <div class="mb-4">
+                            <label class="form-label">
+                                ♿ Configuración de Accesibilidad
+                            </label>
+                            <select id="accesibilidad" class="form-select">
+                                <option value="normal">
+                                    Vista Estándar
+                                </option>
+                                <option value="voz">
+                                    Lectura por Voz
+                                </option>
+                                <option value="contraste">
+                                    Alto Contraste
+                                </option>
+                            </select>
+                        </div>
+
+                        <!-- INFORMACION -->
+                        <div class="alert alert-info">
+                            <strong>Información:</strong>
+                                La configuración seleccionada se aplicará
+                                automáticamente durante toda la navegación
+                                en la plataforma.
+                        </div>
+
+                        <!-- BOTON -->
+                        <div class="d-grid">
+                            <button id="btnIngresar" class="btn btn-acua btn-lg">
+                                🚀 Ingresar a la Plataforma
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- BENEFICIOS -->
+<!-- ===================================== -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                🌟 Plataforma Inclusiva
+            </h2>
+            <p>
+                Diseñada para facilitar el aprendizaje de la robótica
+                mediante herramientas accesibles e interactivas.
+            </p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="beneficio-card text-center p-4 h-100">
+                    <h1>🔊</h1>
+                    <h4>
+                        Lectura por Voz
+                    </h4>
+                    <p>
+                        Los contenidos pueden ser escuchados
+                        mediante síntesis de voz integrada.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="beneficio-card text-center p-4 h-100">
+                    <h1>🎨</h1>
+                    <h4>
+                        Alto Contraste
+                    </h4>
+                    <p>
+                        Facilita la visualización para estudiantes
+                        con dificultades visuales.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="beneficio-card text-center p-4 h-100">
+                    <h1>📱</h1>
+                    <h4>
+                        Diseño Adaptable
+                    </h4>
+                    <p>
+                        Compatible con computadoras,
+                        tabletas y teléfonos móviles.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================== -->
+<!-- FOOTER -->
+<!-- ===================================== -->
+<footer class="footer-index">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <h4>
+                    Universidad Estatal del Sur de Manabí
+                </h4>
+                <p>
+                    Carrera de Tecnologías de la Información
+                </p>
+                <p>
+                    Plataforma Web Inclusiva para el Aprendizaje
+                    de Robótica Educativa
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Contacto
+                </h5>
+                <p>
+                    📧 info@unesum.edu.ec
+                </p>
+                <p>
+                    🌐 Jipijapa - Manabí - Ecuador
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h5>
+                    Síguenos
+                </h5>
+                <div class="redes-sociales">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            © 2026 Carrera de Tecnologías de la Información -
+            Universidad Estatal del Sur de Manabí.
+            Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
+<!-- ===================================== -->
+<!-- SCRIPTS -->
+<!-- ===================================== -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../js/supabase.js"></script>
+<script src="../js/acceso.js"></script>
+<script src="../js/configAccesibilidad.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
